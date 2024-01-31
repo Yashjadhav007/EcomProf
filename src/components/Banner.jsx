@@ -4,7 +4,7 @@ const Banner = (props) => {
     return (
         <>
             <div class="banner_bg_main">
-
+<h1>eeeeeee</h1>
                 <div class="container">
                     <div class="header_section_top">
                         <div class="row">
