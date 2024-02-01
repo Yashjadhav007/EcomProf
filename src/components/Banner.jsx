@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Banner = (props) => {
+<<<<<<< HEAD
   return (
     <>
       <div className="banner_bg_main">
@@ -27,6 +28,29 @@ const Banner = (props) => {
                       <a href="#">Customer Service</a>
                     </li>
                   </ul>
+=======
+    return (
+        <>
+            <div class="banner_bg_main">
+<h1>eeeeeee</h1>
+                <div class="container">
+                    <div class="header_section_top">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <div class="custom_menu">
+                                    <ul>
+                                        <li><a href="#">Best Sellers</a></li>
+                                        <li><a href="#">Gift Ideas</a></li>
+                                        <li><a href="#">New Releases</a></li>
+                                        <li><a href="#">Today's Deals</a></li>
+                                        <li><a href="#">Customer Service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>+
+                        
+                    </div>
+>>>>>>> 226e0bd7b774c0b1cda66244f4bb57d23848d545
                 </div>
               </div>
             </div>
