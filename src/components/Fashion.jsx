@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Fashion = (props) => {
 
@@ -10,8 +11,7 @@ const Fashion = (props) => {
    return (
 
       <>
-         
-            <div className="col-4">
+           <div className="col-4">
                <div class="card" >
                   <img class="card-img-top" src={props.img1} alt="Card image cap" />
                   <div class="card-body">

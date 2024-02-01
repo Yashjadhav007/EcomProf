@@ -7,9 +7,7 @@ const MainOperations = () => {
     const [tCount, setTCount] = useState(0)
     const [proName, setName]= useState('')
 
-
-
-
+ 
     const [Mydata,SetMydata]=useState([])
 
     fetch('https://fakestoreapi.com/products').then(

@@ -1,15 +1,22 @@
-import logo from './logo.svg';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
 
-import Electronics from './components/Electronics';
 import MainOperations from './MainOperations';
+import AdminPage from './components/AdminPage';
+import Banner from './components/Banner';
 
 function App() {
   return (
   <>
   <MainOperations/>
-  
-  <Electronics/>
+
+<BrowserRouter>
+<Routes>
+<Route path="/" element= {<Banner/>}/>
+
+</Routes>
+</BrowserRouter>
   </>
   );
 }
